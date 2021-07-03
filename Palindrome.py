@@ -5,3 +5,4 @@ def palindrome(s):
     a=s.replace(' ','')
 
     return a==a[::-1]
+JSCHkjldbvdnvf
