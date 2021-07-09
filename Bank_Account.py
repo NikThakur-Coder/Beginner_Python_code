@@ -11,17 +11,17 @@ class Account:
         return f'Account Owner: {self.owner} \nAccount Balance: {self.balance}'
 
     def deposit(self, amount):
-        print('Deposit accepted')
+        print('Deposit accepted!')
         self.balance = self.balance + amount
         return f'Now {self.owner} has {self.balance} in the Account'
 
     def withdraw(self, amount):
         if self.balance > amount:
-            print('Withdrawal Accepted')
+            print('Withdrawal Accepted!')
             self.balance = self.balance - amount
             return f'Now {self.owner} has {self.balance} in the Account'
         else:
-            return 'Funds Unavailable'
+            return 'Funds Unavailable!'
 
 while True:
     print('To proceed further you need to open an account here')
